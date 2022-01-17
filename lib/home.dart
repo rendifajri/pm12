@@ -143,6 +143,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     // getData(page);
+    getData();
     Timer.periodic(const Duration(seconds: 5), (timer) {
       getData();
     });
